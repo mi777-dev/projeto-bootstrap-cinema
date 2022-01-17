@@ -1,0 +1,70 @@
+/* Estilo do body */
+.cinema-body {
+  background: #D0D0D0;
+}
+
+/* Estilo da barra de navegaçao */
+.navbar-inverse {
+  background: #082D5E;
+  min-height: 10%;
+  border: none;
+}
+
+/* Estilo do container principal */
+.container-fluid {
+  margin-top: 64px;
+}
+
+/* Estilo do jumbotron */
+.jumbotron {
+  background: #00678E;
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+
+/* Estilo da tag dos titulos das secoes*/
+.section-title {
+  min-height: 45px;
+  background: #082D5E;
+}
+
+/* Estilo das linhas e/ou da colunas que contem linhas*/
+.movies-row {
+  background: #00678E;
+  min-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Estilo das colunas*/
+.movies-column {
+  margin-top: 5px;
+  background: #00678E;
+  min-height: 330px;
+  border: 1px dashed #FFFFFF;
+}
+
+/* Estilo da coluna da esquerda que adiciona borda a direita */
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+
+@media (max-width: 770px) {
+  /* Classe para ocultar componentes HTML */
+  .right-column {
+    display: none;
+  }
+
+  .movies-row {
+    min-height: 250px;
+  }
+
+  .movies-column {
+    min-height: 230px;
+  }
+
+  .jumbotron {
+    min-height: 350px;
+  }
+}

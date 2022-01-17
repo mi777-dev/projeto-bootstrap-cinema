@@ -1,0 +1,184 @@
+/* Estilo do body */
+.cinema-body {
+  background: url(img/fundo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilo da barra de navegaçao */
+.navbar-inverse {
+  background:rgba(8, 45, 94, 0.95);
+  min-height:10%;
+  border: none;
+}
+
+.logo-img{
+  margin-top: 10px;
+   width: 100px;	
+}
+/* Estilo do container principal */
+.container-fluid{
+  margin-top: 73px;
+}
+
+/* Estilo do jumbotron */
+.jumbotron {
+  background: url(img/fundo2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+
+.jumbotron-img {
+  width: 220px;
+  margin-top: 20px;
+ 
+}
+
+.jumbotron-text {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+
+.title-text {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.social-media {
+  margin-top: 30px;
+}
+
+.img-social {
+  width: 40px;
+  height: 40px;
+}
+
+
+.welcome-title {
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+.img-movies {
+  height: 260px;
+  padding: 6px;
+  margin-top: 22px;
+}
+
+.movie-title {
+  color: #FFFFFF;
+}
+
+/* Estilo da tag dos titulos das secoes*/
+.section-title {
+  min-height: 35px;
+  background: rgba(8, 45, 94, 0.95);
+  }
+
+/* Estilo das linhas e/ou da colunas que contem linhas*/
+.movies-row {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Estilo das colunas*/
+.movies-column {
+  margin-top: 5px;
+  background: #00678E;
+  min-height: 330px;
+  border: 1px dashed #FFFFFF;
+}
+
+/* Estilo da coluna da esquerda que adiciona borda a direita */
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+.row-centered {
+  text-align:center;
+}
+
+.services-text {
+  color: #FFFFFF;
+  margin-top: 13px;
+}
+
+.col-centered {
+  display:inline-block;
+  float:none;
+}
+
+.user-data{
+  margin-top: 10px;
+  color: #FFFFFF;
+  font-size: 18px;
+	
+}
+.label-class{
+	
+ color: #FFFFFF;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.btn-save {
+  width: 40%;
+  background-color: rgba(8, 45, 94, 0.95);
+  color: #FFFFFF;
+}
+  
+.input-element {
+  width: 100%;
+  height: 28px;
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 4px;
+  border: none;
+  margin-top: 5px;
+}
+
+@media (max-width: 770px) {
+  /* Classe para ocultar componentes HTML */
+  .right-column {
+    display: none;
+  }
+
+  .movies-row {
+    min-height: 250px;
+  }
+
+  .movies-column {
+    min-height: 230px;
+  }
+
+  .jumbotron {
+    min-height: 400px;
+  }
+   h2 {
+    font-size: 22px;
+  }
+
+  .title-text {
+    font-size: 15px;
+  }
+  .section-title{
+	font-size: 15px; 
+  }
+  .jumbotron-img{
+	  margin-top:20px;
+  }
+}
+
+
+
